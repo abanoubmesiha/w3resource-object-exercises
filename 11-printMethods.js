@@ -1,5 +1,4 @@
 //1. Write a JavaScript function to print all the methods in an JavaScript object.
-const object = {a: 1, b: 2, c: 3};
 function all_properties(obj){
     return Object.getOwnPropertyNames(obj.prototype)
 }
